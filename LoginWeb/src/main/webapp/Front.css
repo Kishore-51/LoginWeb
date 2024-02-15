@@ -1,0 +1,44 @@
+@charset "UTF-8";body{
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('pexels-pixabay-531880.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+}
+.container
+{
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,1,0.5);
+    text-align: center;
+   
+}
+h1{
+    font-weight: bold;
+    color: goldenrod;
+}
+p{
+    margin: 20px 0;
+    line-height: 1.6;
+}
+.links a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.links a:hover
+{
+    color: #7d2d02;
+    font-size: 20px;
+    text-transform:capitalize;
+}
